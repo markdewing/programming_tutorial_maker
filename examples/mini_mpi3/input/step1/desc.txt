@@ -1,0 +1,11 @@
+
+% Development of a mini C++ MPI3 wrapper
+% Name: Initialization
+
+The first step is to call `MPI_Init` and `MPI_Finalize`.
+
+Create an `environment` class that performs these functions for the lifetime of the
+object.
+
+For simplicity, MPI_Init is called with null pointers.
+

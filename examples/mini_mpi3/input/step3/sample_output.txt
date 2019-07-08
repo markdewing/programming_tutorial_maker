@@ -1,0 +1,4 @@
+From rank 0 a = 3
+From rank 1 a = 3
+From rank 2 a = 3
+From rank 3 a = 3

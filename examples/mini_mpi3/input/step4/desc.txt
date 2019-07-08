@@ -1,0 +1,12 @@
+
+% Development of a mini C++ MPI3 wrapper
+% Name: Broadcast array
+
+The next improvement is to broadcast an array type with a start iterator and a length.
+And make it work with a variety of array types (raw C++ arrays, STL containers)
+
+Here the issue is obtaining the address corresponding to the start iterator.
+We are assuming the container storage is contiguous.
+
+One solution is to declare a templated `get_pointer` function
+that is overloaded on different types - C++ pointer, STL iterator, etc.

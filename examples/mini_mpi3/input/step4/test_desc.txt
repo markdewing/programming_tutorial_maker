@@ -1,0 +1,2 @@
+
+This test uses both a raw C++ array and a std::vector.

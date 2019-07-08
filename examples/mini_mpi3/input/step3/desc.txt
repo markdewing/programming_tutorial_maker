@@ -1,0 +1,25 @@
+
+% Development of a mini C++ MPI3 wrapper
+% Name: First communication routine
+
+The next step is to add a communication routine to the communicator class.
+
+For simplicity, we will use broadcast.
+For the C++ interface, we will add broadcast of a scalar value.
+
+For the call to `MPI_Bcast` most of the parameters are straightforward  
+ - the address of the value passed in, 
+ - the count for a scalar is one
+ - the datatype is more involved - will discuss below
+ - the root value (optional value to the broadcast_value function)
+ - the internal `MPI_Comm` value.
+
+The biggest issue is the C++ type needs to be converted the MPI type enumeration.
+
+Use a template class ('datatype') and specializations for each C++ type
+contain an operator that converts to `MPI_Datatype`.
+(There are other ways of representing this in the class - setting up
+  a static 'value' set to the MPI data type)
+
+For this mini mpi3, conversion for int and double is implemented.
+For a more extensive list, a macro is used.

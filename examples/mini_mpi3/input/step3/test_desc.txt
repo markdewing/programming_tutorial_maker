@@ -1,0 +1,4 @@
+
+For the test, set a scalar value on rank 0 to a different value than the
+ other ranks.  Perform the broadcast and verify the new value on all ranks.
+

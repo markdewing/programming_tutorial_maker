@@ -1,0 +1,13 @@
+
+% Development of a mini C++ MPI3 wrapper
+% Name: Communicator
+
+Add a communicator class.  For now it contains a rank function to get the MPI rank.
+Eventually it will contain most of the communication functions.
+
+The raw `MPI_Comm` value is stored internally to the class.
+
+Add a method to the environment to get a world communicator object.
+(Todo: explain the use of static get_world_instance.)
+
+

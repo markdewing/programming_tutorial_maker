@@ -1,0 +1,8 @@
+From rank 0 va[0] = 1.1
+From rank 0 vv[0] = 4
+From rank 1 va[0] = 1.1
+From rank 1 vv[0] = 4
+From rank 2 va[0] = 1.1
+From rank 2 vv[0] = 4
+From rank 3 va[0] = 1.1
+From rank 3 vv[0] = 4
