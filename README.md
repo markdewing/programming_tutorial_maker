@@ -12,6 +12,12 @@ The ingredients at each step are
 
 The ultimate goal is that entire programs will be represented in this incremental form.  The code in each step will be connected by AST transformations, rather than manually created.  See [Programming by Transformation](https://github.com/markdewing/next_steps_in_programming/blob/master/programming_by_transformations.md) for more thoughts.
 
+## Examples
+[Mini C++ MPI3 wrapper](examples/mini_mpi3/output_md/index.md)
+
+## Future
+* The current implementation shows the entire source files.  Even for this small example, it gets hard to see the changes from step to step.  Flexible viewing of the source code and changes is essential. A diff view is the most important view to start with.
+* Current implementation writes to Markdown. In support to better source code viewing, it will probably need to write to HTML or a JS framework.
 
 ## Other Projects
 
