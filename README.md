@@ -24,3 +24,4 @@ The ultimate goal is that entire programs will be represented in this incrementa
 * Software Carpentry has a [lesson template](https://carpentries.github.io/lesson-example/) and guides for creating lessons.
 * The HEP Software Foundation has some lessons based on the Software Carpentry templates https://hepsoftwarefoundation.org/training/curriculum.html
 * Generator for code walkthrough videos: https://github.com/sleuth-io/code-video-generator
+* Command line tool for making programming walkthroughs: https://github.com/snaptoken/leg.git
