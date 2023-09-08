@@ -29,4 +29,5 @@ The ultimate goal is that entire programs will be represented in this incrementa
 
 ## Learning materials organized as tutorials
 * Software Design By Example: [Python](https://third-bit.com/sdxpy/) [Javascript](https://third-bit.com/sdxjs/)
-* List of tutorials for building various types of software: https://github.com/codecrafters-io/build-your-own-x
+* List of tutorials for building various types of software: https://github.com/codecrafters-io/build-your-own-x\
+* Algorithms in several different programming languages: https://github.com/TheAlgorithms/
